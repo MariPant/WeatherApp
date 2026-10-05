@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!-- Navigation / top bar -->
+    <string name="action_open_locations">My locations</string>
+    <string name="action_search">Search city</string>
+    <string name="action_use_current_location">Use current location</string>
+    <string name="action_back">Back</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_allow_location">Allow location access</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_add_city">Add a city</string>
+
+    <!-- Home -->
+    <string name="my_location">My Location</string>
+    <string name="my_location_label">MY LOCATION</string>
+    <string name="feels_like_short">Feels like %1$s</string>
+    <string name="high_low">H:%1$s  L:%2$s</string>
+    <string name="compact_title">%1$s · %2$s</string>
+    <string name="now">Now</string>
+    <string name="today">Today</string>
+    <string name="hourly_forecast">HOURLY FORECAST</string>
+    <string name="daily_forecast">%1$d-DAY FORECAST</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="sunrise_sunset">SUNRISE &amp; SUNSET</string>
+    <string name="precipitation_chance">%1$d%%</string>
+    <string name="precipitation_chance_description">%1$d percent chance of precipitation</string>
+    <string name="offline_banner">Updated %1$s · %2$s</string>
+    <string name="last_updated">Last updated %1$s</string>
+    <string name="data_source">Weather data by Open-Meteo.com</string>
+    <string name="data_source_url" translatable="false">https://open-meteo.com/</string>
+    <string name="made_by">Made by Marina Panteleev</string>
+    <string name="author_linkedin">LinkedIn</string>
+    <string name="author_github">GitHub</string>
+    <string name="author_linkedin_url" translatable="false">https://www.linkedin.com/in/marina-panteleev-5a0756237/</string>
+    <string name="author_github_url" translatable="false">https://github.com/MariPant/</string>
+    <string name="author_link_description">%1$s profile of Marina Panteleev</string>
+    <string name="temperature_range_description">Low %1$s, high %2$s</string>
+    <string name="hour_description">%1$s, %2$s, %3$s</string>
+    <string name="refresh_failed">Couldn\'t refresh. %1$s</string>
+
+    <!-- Details -->
+    <string name="detail_feels_like">FEELS LIKE</string>
+    <string name="detail_humidity">HUMIDITY</string>
+    <string name="detail_wind">WIND</string>
+    <string name="detail_uv_index">UV INDEX</string>
+    <string name="detail_visibility">VISIBILITY</string>
+    <string name="detail_pressure">PRESSURE</string>
+    <string name="feels_like_similar">Similar to the actual temperature.</string>
+    <string name="feels_like_colder">Wind is making it feel colder.</string>
+    <string name="feels_like_warmer">Humidity is making it feel warmer.</string>
+    <string name="dew_point">The dew point is %1$s right now.</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_km">km</string>
+    <string name="unit_hpa">hPa</string>
+    <string name="wind_gusts">Gusts up to %1$d km/h</string>
+    <string name="wind_from">From %1$s</string>
+    <string name="wind_direction_description">Wind from %1$s</string>
+    <string name="pressure_low">Lower than usual</string>
+    <string name="pressure_normal">Around normal</string>
+    <string name="pressure_high">Higher than usual</string>
+    <string name="uv_low">Low</string>
+    <string name="uv_moderate">Moderate</string>
+    <string name="uv_high">High</string>
+    <string name="uv_very_high">Very high</string>
+    <string name="uv_extreme">Extreme</string>
+    <string name="visibility_very_poor">Very poor visibility.</string>
+    <string name="visibility_poor">Reduced visibility.</string>
+    <string name="visibility_moderate">Moderate visibility.</string>
+    <string name="visibility_good">Good visibility.</string>
+    <string name="visibility_excellent">Perfectly clear view.</string>
+    <string name="not_available">—</string>
+
+    <!-- Conditions -->
+    <string name="condition_sunny">Sunny</string>
+    <string name="condition_clear">Clear</string>
+    <string name="condition_mostly_sunny">Mostly Sunny</string>
+    <string name="condition_mostly_clear">Mostly Clear</string>
+    <string name="condition_partly_cloudy">Partly Cloudy</string>
+    <string name="condition_cloudy">Cloudy</string>
+    <string name="condition_fog">Fog</string>
+    <string name="condition_drizzle">Drizzle</string>
+    <string name="condition_rain">Rain</string>
+    <string name="condition_heavy_rain">Heavy Rain</string>
+    <string name="condition_freezing_rain">Freezing Rain</string>
+    <string name="condition_snow">Snow</string>
+    <string name="condition_heavy_snow">Heavy Snow</string>
+    <string name="condition_thunderstorm">Thunderstorms</string>
+    <string name="condition_unknown">Unknown</string>
+    <string name="condition_windy">Windy</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Your weather, beautifully</string>
+    <string name="welcome_message">See the forecast where you are, or search for any city in the world.</string>
+    <string name="welcome_location_note">Location is only used to find the nearest forecast.</string>
+
+    <!-- Locations -->
+    <string name="locations_title">My Locations</string>
+    <string name="locations_empty_title">No locations yet</string>
+    <string name="locations_empty_message">Search for a city to add it here.</string>
+    <string name="search_placeholder">Search for a city</string>
+    <string name="location_selected">Currently shown</string>
+    <string name="location_unavailable">Weather unavailable</string>
+    <string name="location_removed">%1$s removed</string>
+
+    <!-- Search -->
+    <string name="search_hint">Type at least two letters of a city name.</string>
+    <string name="search_no_results_title">No results for “%1$s”</string>
+    <string name="search_no_results_message">Check the spelling or try a nearby larger city.</string>
+
+    <!-- Errors -->
+    <string name="error_title_weather">Unable to load weather</string>
+    <string name="error_title_city">City not found</string>
+    <string name="error_title_location">Location unavailable</string>
+    <string name="error_no_internet">Check your internet connection and try again.</string>
+    <string name="error_timeout">The weather service is taking too long to respond. Try again in a moment.</string>
+    <string name="error_server">The weather service is having problems right now. Try again later.</string>
+    <string name="error_unknown">Something went wrong. Try again.</string>
+    <string name="error_city_not_found">We couldn\'t find a city with that name.</string>
+    <string name="error_location_permission">Allow location access to see weather where you are, or search for a city instead.</string>
+    <string name="error_location_unavailable">We couldn\'t determine your location. Make sure location services are on, or search for a city.</string>
+    <string name="error_location_permission_short">Location permission denied. You can search for a city instead.</string>
+    <string name="error_location_unavailable_short">Couldn\'t determine your location.</string>
+    <string name="offline_no_internet">No internet connection</string>
+    <string name="offline_timeout">Connection timed out</string>
+    <string name="offline_server">Weather service unavailable</string>
+</resources>
